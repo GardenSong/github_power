@@ -1,5 +1,5 @@
 async function makeIssue() {
-    # env랑 yml에 env 를 같은지 봐야한다.
+    //env랑 yml에 env 를 같은지 봐야한다.
     const token = process.env.GH_TOKEN; // 주의! 일치해야함 (env와 일치해야함)
     // 요고 1
     const OWNER = "GardenSong"; // 여러분들의 github 계정 이름
